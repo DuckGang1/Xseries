@@ -1,0 +1,5 @@
+language: java
+install: true
+# Should always use the latest JDK
+jdk: openjdk17
+script: mvn install -Dgpg.skip=true -Dmaven.javadoc.skip=true -B -ntp
